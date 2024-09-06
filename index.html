@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Favorite Recipes</h1>
+    </header>
+
+    <main>
+        <section id="add-recipe-section">
+            <h2>Add a New Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+                <br>
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" required></textarea>
+                <br>
+                <button type="submit" id="add-recipe-btn">Add Recipe</button>
+            </form>
+        </section>
+
+        <section id="recipe-list-section">
+            <h2>Recipe List</h2>
+            <ul id="recipe-list"></ul>
+        </section>
+    </main>
+
+    <!--This footer is optional but looks good, saw it on w3schools-->
+    <footer>
+        <p>&copy; 2024 Recipe Web App</p>
+    </footer>
+
+</body>
+</html>
